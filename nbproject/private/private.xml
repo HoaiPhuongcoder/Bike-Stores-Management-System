@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/dal/CategoryDAL.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/utils/Validator.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/model/Product.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/dao/CategoryDAOImpl.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/dao/ProductDAO.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/dal/BrandDAL.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/ui/Menu.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/dao/CategoryDAO.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/main/Main.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/model/Category.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/dal/ProductDAL.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/ui/IMenu.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/model/Brand.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/manager/Management.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/dal/IFileManager.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/dao/BrandDAO.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/dao/BrandDAOImpl.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Máy%20tính/FPTU_MT/LAB211-HW/ProductManager/src/dao/ProductDAOImpl.java</file>
+        </group>
+    </open-files>
+</project-private>
