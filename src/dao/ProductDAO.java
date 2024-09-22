@@ -5,8 +5,6 @@
 package dao;
 
 import java.util.List;
-import model.Brand;
-import model.Category;
 import model.Product;
 
 /**

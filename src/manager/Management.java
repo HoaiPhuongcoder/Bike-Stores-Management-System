@@ -4,17 +4,14 @@
  */
 package manager;
 
-import dal.IFileManager;
 import ui.IMenu;
 import ui.Menu;
 import dao.BrandDAO;
 import dao.BrandDAOImpl;
 import dao.CategoryDAO;
 import dao.CategoryDAOImpl;
-import dal.ProductDAL;
 import dao.ProductDAO;
 import dao.ProductDAOImpl;
-import java.awt.Choice;
 import java.util.Comparator;
 import java.util.List;
 import model.Brand;
@@ -28,9 +25,9 @@ import utils.Validator;
  */
 public class Management {
 
-    private final ProductDAO productDAO;
-    private final BrandDAO brandDAO;
-    private final CategoryDAO categoryDAO;
+    private  ProductDAO productDAO;
+    private  BrandDAO brandDAO;
+    private  CategoryDAO categoryDAO;
 
     public Management() {
         productDAO = new ProductDAOImpl();

@@ -4,11 +4,7 @@
  * and open the template in the editor.
  */
 package dal;
-
-import dao.BrandDAO;
-import dao.CategoryDAO;
 import java.util.List;
-import model.Product;
 
 /**
  *

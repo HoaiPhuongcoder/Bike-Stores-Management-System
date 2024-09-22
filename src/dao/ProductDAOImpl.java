@@ -5,21 +5,10 @@
 package dao;
 
 import dal.IFileManager;
-import ui.IMenu;
-import ui.Menu;
 import dal.ProductDAL;
-import java.awt.Choice;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import model.Brand;
-import model.Category;
 import model.Product;
-import utils.Validator;
 
 /**
  *
@@ -27,16 +16,24 @@ import utils.Validator;
  */
 public class ProductDAOImpl implements ProductDAO {
 
-    private final List<Product> plist;
+    private List<Product> plist;
     private String lastID;
-    private final IFileManager productFileManager;
+    
 
     public ProductDAOImpl() {
-        productFileManager = new ProductDAL();
-        plist = productFileManager.loadFromFile();
+        loadFromFile();
         lastID = "";
     }
-
+    private void loadFromFile(){
+       IFileManager productFileManager = new ProductDAL();
+       plist = productFileManager.loadFromFile();
+    }
+    
+    @Override
+    public void saveToFile(){
+        IFileManager productFileManager = new ProductDAL();
+        productFileManager.saveToFile(plist);
+    }
     @Override
     public boolean addProduct(Product product) {
         if (plist.isEmpty()) {
@@ -91,8 +88,5 @@ public class ProductDAOImpl implements ProductDAO {
     public List<Product> getList(){
         return new ArrayList<>(plist) ;
     }
-    @Override
-    public void saveToFile(){
-        productFileManager.saveToFile(plist);
-    }
+    
 }

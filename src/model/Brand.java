@@ -10,7 +10,7 @@ package model;
  */
 public class Brand {
     private String brandId;
-    private  String brandName;
+    private String brandName;
     private String origin;
 
     public Brand() {
